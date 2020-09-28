@@ -1,0 +1,10 @@
+
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\u1F16D \u1F16E \u1F16F \u1F10D \u1F10E \u1F10F \uni229C ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+
